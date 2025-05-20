@@ -1,0 +1,15 @@
+{
+  "type": "app",
+  "with_modules": true,
+  "with_hugo": true,
+  "directories": [
+    "cmd/",
+    "internal/",
+    "docs/",
+    "hugo/",
+    "modules/",
+    ".programidex/"
+  ],
+  "github_repo": "portfolidex",
+  "go_module": ""
+}
