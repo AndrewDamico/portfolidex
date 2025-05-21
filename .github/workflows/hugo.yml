@@ -23,25 +23,13 @@ jobs:
           hugo-version: '0.128.0'
           extended: true
 
-      - name: Create a sample Hugo site
-        run: |
-          hugo new site hugo-sample
-          cd hugo-sample
-          git init
-          hugo new posts/hello-world.md
-          echo 'theme = "ananke"' >> config.toml
-          git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-          echo -e "---\ntitle: 'Hello, world!'\ndate: 2025-05-20\n---\n\nThis is a test post." > content/posts/hello-world.md
-
       - name: Build Hugo site
-        run: |
-          cd hugo-sample
-          hugo --minify
+        run: hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: hugo-sample/public
+          path: public
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
