@@ -1,0 +1,8 @@
+baseURL = 'https://andrew.damico.githubpages.io/portfolidex/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "github.com/alex-shpak/hugo-book"
+
+[module]
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
