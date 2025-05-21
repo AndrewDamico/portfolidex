@@ -1,0 +1,8 @@
+{
+  "name": "portfolidex-module",
+  "type": "module",
+  "owner": "AndrewDamico",
+  "description": "Portfolidex Module provides the tools and logic for registering, describing, and aggregating DEX apps and modules within the Portfolidex ecosystem. It enables projects to generate standardized metadata cards (.portfolidex.json) for portfolio discovery and visualization.",
+  "dex_modules": null,
+  "repo": "https://github.com/AndrewDamico/portfolidex.git"
+}

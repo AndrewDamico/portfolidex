@@ -1,0 +1,8 @@
+{
+  "name": "portfolidex",
+  "type": "app",
+  "owner": "AndrewDamico",
+  "description": "Portfolidex is a portfolio aggregation and visualization tool for DEX (Developer Experience) ecosystems. It automatically discovers, collects, and displays metadata from all registered DEX projects and modules, providing a unified, searchable view of your organization’s developer tools, apps, and reusable components. Portfolidex helps teams understand, showcase, and manage their internal developer ecosystem with ease.",
+  "dex_modules": null,
+  "repo": "https://github.com/AndrewDamico/portfolidex.git"
+}

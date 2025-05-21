@@ -8,7 +8,8 @@
     "docs/",
     "hugo/",
     "modules/",
-    ".programidex/"
+    ".programidex/",
+    "modules\\portfolidex-module"
   ],
   "github_repo": "portfolidex",
   "go_module": ""
